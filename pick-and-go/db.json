@@ -1,0 +1,23 @@
+{
+    "cabs": [
+      {
+        "id": 1,
+        "name": "PickMe Cab",
+        "status": "Available",
+        "location": "Westlands"
+      },
+      {
+        "id": 2,
+        "name": "QuickRide",
+        "status": "Booked",
+        "location": "CBD"
+      },
+      {
+        "id": 3,
+        "name": "GoExpress",
+        "status": "Available",
+        "location": "Kilimani"
+      }
+    ]
+  }
+  
