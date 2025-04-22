@@ -20,7 +20,6 @@ pick-and-go/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── components/
 │   │   ├── NavBar.js
 │   │   ├── CabList.js
 │   │   ├── CabBookingForm.js
