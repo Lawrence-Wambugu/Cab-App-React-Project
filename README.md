@@ -16,10 +16,11 @@ Pick and Go makes it easy for users to:
 
 ## 📂 Project Structure
 ```
-pick-and-go/
+
 ├── public/
 │   └── index.html
 ├── src/
+│   ├── components/
 │   │   ├── NavBar.js
 │   │   ├── CabList.js
 │   │   ├── CabBookingForm.js
