@@ -1,23 +1,126 @@
 {
-    "cabs": [
-      {
-        "id": 1,
-        "name": "PickMe Cab",
-        "status": "Available",
-        "location": "Westlands"
-      },
-      {
-        "id": 2,
-        "name": "QuickRide",
-        "status": "Booked",
-        "location": "CBD"
-      },
-      {
-        "id": 3,
-        "name": "GoExpress",
-        "status": "Available",
-        "location": "Kilimani"
-      }
-    ]
-  }
-  
+  "cabs": [
+    {
+      "id": "1",
+      "name": "UberX",
+      "location": "Westlands",
+      "status": "Intransit"
+    },
+    {
+      "id": "2",
+      "name": "Bolt Mini",
+      "location": "CBD",
+      "status": "Intransit"
+    },
+    {
+      "id": "3",
+      "name": "Little Cab",
+      "location": "Parklands",
+      "status": "Intransit"
+    },
+    {
+      "id": "4",
+      "name": "Uber Select",
+      "location": "Ngong Road",
+      "status": "booked"
+    },
+    {
+      "id": "3a1a",
+      "name": "nissan",
+      "location": "embu",
+      "status": "available"
+    },
+    {
+      "id": "0d90",
+      "name": "Bolt",
+      "location": "Kahawa West",
+      "status": "available"
+    },
+    {
+      "id": "5ee6",
+      "name": "moneyfest",
+      "location": "ngong",
+      "status": "Intransit"
+    },
+    {
+      "id": "c757",
+      "name": "subaru",
+      "location": "runda",
+      "status": "available"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "dccc",
+      "customerName": "lawre",
+      "pickupLocation": "kimbo",
+      "destination": "ruiru",
+      "cabId": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": "642f",
+      "customerName": "lawre",
+      "pickupLocation": "cbd",
+      "destination": "langata",
+      "cabId": 2,
+      "status": "confirmed"
+    },
+    {
+      "id": "397d",
+      "customerName": "Claire",
+      "pickupLocation": "Njiiru",
+      "destination": "Jomoko",
+      "cabId": 2,
+      "status": "confirmed"
+    },
+    {
+      "id": "d53c",
+      "customerName": "Joel",
+      "pickupLocation": "Kahawa west",
+      "destination": "mwihoko",
+      "cabId": null,
+      "status": "confirmed"
+    },
+    {
+      "id": "56d3",
+      "customerName": "lawrence",
+      "pickupLocation": "syokimau",
+      "destination": "moringa",
+      "cabId": 9,
+      "status": "confirmed"
+    },
+    {
+      "id": "ba43",
+      "customerName": "ssss",
+      "pickupLocation": "sss",
+      "destination": "sss",
+      "cabId": 3,
+      "status": "confirmed"
+    },
+    {
+      "id": "6b97",
+      "customerName": "Joel",
+      "pickupLocation": "kahawa west",
+      "destination": "githurai",
+      "cabId": 1,
+      "status": "confirmed"
+    },
+    {
+      "id": "2348",
+      "customerName": "muthoni",
+      "pickupLocation": "kimbo",
+      "destination": "dffef",
+      "cabId": null,
+      "status": "confirmed"
+    },
+    {
+      "id": "b01f",
+      "customerName": "joel",
+      "pickupLocation": "githu",
+      "destination": "moringa",
+      "cabId": 5,
+      "status": "confirmed"
+    }
+  ]
+}
