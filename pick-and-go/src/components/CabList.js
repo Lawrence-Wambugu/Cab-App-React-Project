@@ -5,7 +5,7 @@ import MapView from "./MapView";
 
 function CabList() {
   const [cabs, setCabs] = useState([]);
-  const [customerName, setCustomerName] = useState('Lawrence'); // Static customer name, you can change this as per your logic
+  const [customerName, setCustomerName] = useState('Lawrence'); 
   const navigate = useNavigate(); // Hook to navigate to a different route
 
   useEffect(() => {
