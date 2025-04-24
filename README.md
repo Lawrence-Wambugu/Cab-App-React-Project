@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# 🚖 Pick and Go
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Pick and Go** is a single-page React application that allows users to book cab rides from a list of available cabs. The app features a dynamic UI, component-based architecture, and a mock REST API powered by JSON Server. Developed as a collaborative group project at Moringa School.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
 
-### `npm start`
+- **Frontend:** React.js (with Create React App), Tailwind CSS
+- **Backend:** JSON Server (mock REST API)
+- **Deployment:** Netlify (frontend), Render/Cyclic (backend)
+- **Version Control:** Git, GitHub
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+pick-and-go/ ├── public/ │ └── index.html ├── src/ │ ├── components/ │ │ ├── Navbar.js │ │ ├── Home.js │ │ ├── MapView.js │ │ ├── AddCabForm.js │ │ ├── RidePage.js │ │ └── Footer.js │ ├── App.js │ ├── index.js │ └── App.css ├── db.json # JSON Server database ├── tailwind.config.js ├── package.json └── README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+yaml
+Copy
+Edit
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👥 Team & Component Contributions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Team Member         | Role           | Contributions                                                                 |
+|---------------------|----------------|-------------------------------------------------------------------------------|
+| **Lawrence Wambugu**| Scrum Master   | Project setup, `MapView.js`, `RidePage.js`, API integration, Deployment       |
+| **Claire Kariuki**  | Developer      | Designed `AddCabForm.js`, worked on form handling and POST request logic      |
+| **Joel Nganga**     | Developer      | Created `Navbar.js`, helped with app routing and styling                      |
+| **Laetitia Kamangu**| Developer      | Developed `Home.js`, added hero section, assisted with responsive layout      |
+| **Carren Shihemi**  | Developer      | Implemented `Footer.js`, contributed to `RidePage.js`, and mobile responsiveness |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚗 Key Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🔍 **View Available Cabs**: Users can view cabs in a map-style layout with real-time availability
+- 🛎️ **Book a Ride**: Click-to-book functionality for available cabs only
+- ➕ **Add New Cab**: Form for adding cabs to the system (admin feature)
+- 🌗 **Hover UI Effects**: Enhances interactivity with visual feedback
+- 📱 **Responsive Design**: Works across desktop and mobile screens
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧑‍💻 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/pick-and-go.git
+   cd pick-and-go
+Install dependencies
 
-## Learn More
+bash
+Copy
+Edit
+npm install
+Run the frontend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy
+Edit
+npm start
+Run the backend with JSON Server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copy
+Edit
+npx json-server --watch db.json --port 4000
+🌐 Deployment
+Frontend on Netlify: https://your-site-name.netlify.app
 
-### Code Splitting
+Backend Options: Deploy on Render, Cyclic, or run locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📬 Contact
+Email: wambugulawrence@gmail.com
 
-### Analyzing the Bundle Size
+Phone: +254 727 277 127
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📄 License
+This project is licensed under the MIT License – feel free to use, modify, and distribute as needed.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🙌 Acknowledgements
+Thanks to Moringa School and our instructors for guidance and support throughout the development of this project.
