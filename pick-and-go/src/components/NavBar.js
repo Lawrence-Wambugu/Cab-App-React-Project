@@ -1,3 +1,4 @@
+// src/components/NavBar.js
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -5,11 +6,17 @@ function NavBar() {
     <nav className="bg-blue-600 shadow-md py-4 px-6 flex items-center justify-between">
       <div className="text-3xl font-extrabold text-white">🚕 Pick & Go</div>
       <div className="flex space-x-8">
-        <Link
+      <Link
           to="/"
           className="text-xl font-bold text-white hover:text-yellow-300 transition duration-300"
         >
           Home
+        </Link>
+        <Link
+          to="/Map"
+          className="text-xl font-bold text-white hover:text-yellow-300 transition duration-300"
+        >
+          Discover
         </Link>
         <Link
           to="/add-cab"
