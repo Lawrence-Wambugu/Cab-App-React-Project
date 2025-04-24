@@ -9,7 +9,7 @@ function CabList() {
   const navigate = useNavigate(); 
 
   useEffect(() => {
-    fetch("http://localhost:4000/cabs")
+    fetch("https://pick-and-go-api.onrender.com/cabs")
       .then(res => res.json())
       .then(data => setCabs(data))
       .catch(error => console.error("Error fetching cabs:", error));
