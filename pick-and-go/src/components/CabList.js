@@ -31,7 +31,7 @@ function CabList() {
     <div className="p-6">
       <h2 className="text-2xl font-bold mb-4">Available Cabs</h2>
       
-      {/* MapView component */}
+      {}
       <MapView cabs={cabs} />
 
       {/* Display all cabs, regardless of status */}
