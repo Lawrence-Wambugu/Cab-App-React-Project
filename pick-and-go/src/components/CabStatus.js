@@ -1,5 +1,4 @@
-// src/components/CabStatus.js
-
+//Cab Status
 function CabStatus({ cab }) {
   const isAvailable = cab.status === "available";
 
