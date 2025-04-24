@@ -28,7 +28,7 @@ function AddCab() {
       .then(response => response.json())
       .then(data => {
         console.log("New cab added:", data);
-        // Optionally reset form or update state 
+        // Optionally reset form or 
       })
       .catch(error => console.error("Error adding new cab:", error));
   };
