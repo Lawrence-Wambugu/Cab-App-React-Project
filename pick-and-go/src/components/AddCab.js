@@ -18,7 +18,7 @@ function AddCab() {
       plate: numberPlate,
     };
 
-    fetch("http://localhost:4000/cabs", {
+    fetch("https://pick-and-go-api.onrender.com/cabs", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
