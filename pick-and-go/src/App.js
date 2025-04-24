@@ -5,6 +5,7 @@ import CabList from "./components/CabList";
 import Footer from "./components/Footer";
 import AddCab from "./components/AddCab"; // AddCab component
 import Ride from "./components/Ride";
+import LandingPage from './components/Home';
 
 
 function App() {
@@ -13,13 +14,13 @@ function App() {
       <div className="min-h-screen bg-gray-100 flex flex-col">
         <NavBar />
         <main className="flex-grow p-4">
-          <Routes>
-            <Route path="/" element={<CabList />} />
-            <Route path="/book" element={<CabBookingForm />} /> {/* Booking route */}
-            <Route path="/add-cab" element={<AddCab />} /> {/* Add Cab route */}
-            <Route path="/ride" element={<Ride />} />
-
-          </Routes>
+        <Routes>
+  <Route path="/" element={<LandingPage />} />          {/* ✅ Correct home page */}
+  <Route path="/map" element={<CabList />} />            {/* ✅ Moved CabList here */}
+  <Route path="/book" element={<CabBookingForm />} />
+  <Route path="/add-cab" element={<AddCab />} />
+  <Route path="/ride" element={<Ride />} />
+</Routes>
         </main>
         <Footer />
       </div>
