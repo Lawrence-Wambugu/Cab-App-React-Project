@@ -6,6 +6,12 @@ function CabStatus({ cab }) {
   return (
     <div className="p-4 bg-white rounded shadow">
       <h3 className="text-xl font-bold">{cab.name}</h3>
+      <h3 className="text-lg font-semibold">{cab.name}</h3>
+      <p><strong>Status:</strong> {cab.status}</p>
+      <p><strong>Location:</strong> {cab.location}</p>
+      
+      {cab.driver && <p><strong>Driver:</strong> {cab.driver}</p>}
+      {cab.plate && <p><strong>Number Plate:</strong> {cab.plate}</p>}
       <p className="text-gray-600">{cab.location}</p>
       <p
         className={`mt-2 font-semibold ${

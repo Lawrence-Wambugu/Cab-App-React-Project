@@ -1,52 +1,44 @@
 {
   "cabs": [
     {
-      "id": "1",
-      "name": "UberX",
-      "location": "Westlands",
-      "status": "Intransit"
+      "id": "d184",
+      "name": "boda",
+      "location": "mombasa",
+      "status": "Intransit",
+      "driver": "Joel",
+      "plate": "KDA 444S"
     },
     {
-      "id": "2",
-      "name": "Bolt Mini",
-      "location": "CBD",
-      "status": "Intransit"
+      "id": "bd25",
+      "name": "uberX",
+      "location": "Kilimani",
+      "status": "available",
+      "driver": "Claire Kariuki",
+      "plate": "KDQ 765X"
     },
     {
-      "id": "3",
-      "name": "Little Cab",
-      "location": "Parklands",
-      "status": "Intransit"
+      "id": "ce86",
+      "name": "BOLT",
+      "location": "Ngong",
+      "status": "available",
+      "driver": "Laetitia Kamangu",
+      "plate": "KDJ 265W"
     },
     {
-      "id": "4",
-      "name": "Uber Select",
-      "location": "Ngong Road",
-      "status": "booked"
-    },
-    {
-      "id": "3a1a",
-      "name": "nissan",
-      "location": "embu",
-      "status": "available"
-    },
-    {
-      "id": "0d90",
-      "name": "Bolt",
+      "id": "225d",
+      "name": "uber ChapChap",
       "location": "Kahawa West",
-      "status": "available"
+      "status": "available",
+      "driver": "Joel Nganga",
+      "plate": "KDR 995P"
     },
     {
-      "id": "5ee6",
-      "name": "moneyfest",
-      "location": "ngong",
-      "status": "Intransit"
-    },
-    {
-      "id": "c757",
-      "name": "subaru",
-      "location": "runda",
-      "status": "available"
+      "id": "b534",
+      "name": "Little Cab",
+      "location": "JKIA",
+      "status": "available",
+      "driver": "Carren Shihemi",
+      "plate": "KDM 156U"
     }
   ],
   "bookings": [
@@ -120,6 +112,14 @@
       "pickupLocation": "githu",
       "destination": "moringa",
       "cabId": 5,
+      "status": "confirmed"
+    },
+    {
+      "id": "cc99",
+      "customerName": "lawi",
+      "pickupLocation": "kkk",
+      "destination": "kkkk",
+      "cabId": null,
       "status": "confirmed"
     }
   ]

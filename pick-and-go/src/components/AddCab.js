@@ -4,6 +4,8 @@ function AddCab() {
   const [cabName, setCabName] = useState("");
   const [cabLocation, setCabLocation] = useState("");
   const [cabStatus, setCabStatus] = useState("available");
+  const [driverName, setDriverName] = useState("");
+  const [numberPlate, setNumberPlate] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -12,6 +14,8 @@ function AddCab() {
       name: cabName,
       location: cabLocation,
       status: cabStatus,
+      driver: driverName,
+      plate: numberPlate,
     };
 
     fetch("http://localhost:4000/cabs", {
@@ -52,6 +56,30 @@ function AddCab() {
             id="cabLocation"
             value={cabLocation}
             onChange={(e) => setCabLocation(e.target.value)}
+            className="w-full p-2 border rounded"
+            required
+          />
+        </div>
+
+        <div>
+          <label htmlFor="driverName" className="block">Driver Name</label>
+          <input
+            type="text"
+            id="driverName"
+            value={driverName}
+            onChange={(e) => setDriverName(e.target.value)}
+            className="w-full p-2 border rounded"
+            required
+          />
+        </div>
+
+        <div>
+          <label htmlFor="numberPlate" className="block">Number Plate</label>
+          <input
+            type="text"
+            id="numberPlate"
+            value={numberPlate}
+            onChange={(e) => setNumberPlate(e.target.value)}
             className="w-full p-2 border rounded"
             required
           />
