@@ -38,7 +38,6 @@ function CabBookingForm() {
       status: "confirmed",
     };
 
-    // Step 1: Create the booking
     fetch("http://localhost:4000/bookings", {
       method: "POST",
       headers: {
