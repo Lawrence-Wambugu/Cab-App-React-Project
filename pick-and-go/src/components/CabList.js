@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; 
 import CabStatus from "./CabStatus";
-import MapView from "./MapView";  // Import MapView
+import MapView from "./MapView";  
 
 function CabList() {
   const [cabs, setCabs] = useState([]);
