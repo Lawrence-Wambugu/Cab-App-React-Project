@@ -23,8 +23,11 @@ Pick and Go makes it easy for users to:
 │   ├── components/
 │   │   ├── NavBar.js
 │   │   ├── CabList.js
+│   │   ├── AddCab.js
 │   │   ├── CabBookingForm.js
 │   │   ├── CabStatus.js
+|   |   ├── MapView.jsx
+|   |   ├── Ride.js
 │   │   └── Footer.js
 │   ├── App.js
 │   ├── index.css
@@ -36,9 +39,9 @@ Pick and Go makes it easy for users to:
 
 ## 🧑‍🤝‍🧑 Team Roles
 - **Lawrence Wambugu (Scrum Master):** Project coordination, reviews & deployment.
-- **Laetitia Kamangu:** Developed CabList component and GET request logic.
-- **Claire Kariuki:** Developed CabBookingForm component and POST logic.
-- **Carren Shihemi:** Implemented CabStatus component for live booking updates.
+- **Laetitia Kamangu:** Developed CabList AddCab component and GET request logic.
+- **Claire Kariuki:** Developed CabBookingForm Mapview component and POST logic.
+- **Carren Shihemi:** Implemented CabStatus Ride component for live booking updates.
 - **Joel Nganga:** Created NavBar, Footer and assisted with layout and routing.
 
 ## 🧪 Setup & Installation
@@ -56,7 +59,7 @@ npx tailwindcss -i ./src/index.css -o ./src/output.css --watch
 ```
 4. Start json-server for mock API
 ```
-npx json-server --watch db.json --port 3000
+npx json-server --watch db.json --port 4000
 ```
 5. Start the React development server
 ```
@@ -65,6 +68,7 @@ npm start
 
 ## 🎯 Features
 - Browse available cabs
+- Add cabs for drivers
 - Book cabs using the form
 - Live booking status updates
 - Fully responsive UI with Tailwind CSS
