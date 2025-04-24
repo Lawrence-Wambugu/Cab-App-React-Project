@@ -6,7 +6,7 @@ function Ride() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:4000/cabs")
+    fetch("https://pick-and-go-api.onrender.com/cabs")
       .then((res) => res.json())
       .then((data) => {
         const availableCabs = data.filter((cab) => cab.status === "available");
