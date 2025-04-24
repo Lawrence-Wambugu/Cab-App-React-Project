@@ -8,8 +8,8 @@
 
 - **Frontend:** React.js (with Create React App), Tailwind CSS
 - **Backend:** JSON Server (mock REST API)
-- **Deployment:** Netlify (frontend), Render/Cyclic (backend)
-- **Version Control:** Git, GitHub
+- **Deployment:** Netlify (frontend), Render (backend)
+- **Version Control:** GitHub
 
 ---
 
