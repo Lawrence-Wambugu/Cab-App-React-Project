@@ -17,7 +17,7 @@ function CabList() {
 
   
   const handleBookCab = (cab) => {
-    // Update the cab status to booked when the user books it
+    
     const updatedCabs = cabs.map((c) =>
       c.id === cab.id ? { ...c, status: "Intransit" } : c
     );
