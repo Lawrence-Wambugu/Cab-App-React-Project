@@ -21,7 +21,7 @@ function CabList() {
     const updatedCabs = cabs.map((c) =>
       c.id === cab.id ? { ...c, status: "Intransit" } : c
     );
-    setCabs(updatedCabs); // Update state to reflect the status change
+    setCabs(updatedCabs); 
 
     // Navigate to the booking form and pass cab data via state
     navigate("/book", { state: { cab, customerName } });
