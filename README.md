@@ -1,81 +1,70 @@
-# Cab-App-React-Project
-# Pick and Go - Cab Booking React App
+# Getting Started with Create React App
 
-An intuitive cab booking single-page application (SPA) built with React, json-server, and Tailwind CSS.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚕 Overview
-Pick and Go makes it easy for users to:
-- View available cabs
-- Book a cab
-- Track booking status live
+## Available Scripts
 
-## 💻 Tech Stack
-- React (create-react-app)
-- json-server (mock backend API)
-- Tailwind CSS (styling)
+In the project directory, you can run:
 
-## 📂 Project Structure
-```
+### `npm start`
 
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── NavBar.js
-│   │   ├── CabList.js
-│   │   ├── AddCab.js
-│   │   ├── CabBookingForm.js
-│   │   ├── CabStatus.js
-|   |   ├── MapView.jsx
-|   |   ├── Ride.js
-│   │   └── Footer.js
-│   ├── App.js
-│   ├── index.css
-│   └── index.js
-├── tailwind.config.js
-├── package.json
-└── db.json
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🧑‍🤝‍🧑 Team Roles
-- **Lawrence Wambugu (Scrum Master):** Project coordination, reviews & deployment.
-- **Laetitia Kamangu:** Developed CabList AddCab component and GET request logic.
-- **Claire Kariuki:** Developed CabBookingForm Mapview component and POST logic.
-- **Carren Shihemi:** Implemented CabStatus Ride component for live booking updates.
-- **Joel Nganga:** Created NavBar, Footer and assisted with layout and routing.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🧪 Setup & Installation
-1. Clone the repository
-```
-git clone https://github.com/your-username/pick-and-go.git
-```
-2. Install dependencies
-```
-npm install
-```
-3. Run Tailwind in development
-```
-npx tailwindcss -i ./src/index.css -o ./src/output.css --watch
-```
-4. Start json-server for mock API
-```
-npx json-server --watch db.json --port 4000
-```
-5. Start the React development server
-```
-npm start
-```
+### `npm test`
 
-## 🎯 Features
-- Browse available cabs
-- Add cabs for drivers
-- Book cabs using the form
-- Live booking status updates
-- Fully responsive UI with Tailwind CSS
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 📝 License
-MIT License.
+### `npm run build`
 
----
-Made with 💙 by Lawrence, Laetitia, Claire, Carren, and Joel.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
