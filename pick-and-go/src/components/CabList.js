@@ -23,7 +23,7 @@ function CabList() {
     );
     setCabs(updatedCabs); 
 
-    // Navigate to the booking form and pass cab data via state
+   
     navigate("/book", { state: { cab, customerName } });
   };
 
