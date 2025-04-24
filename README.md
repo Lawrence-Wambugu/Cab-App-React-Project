@@ -70,7 +70,7 @@ Copy
 Edit
 npx json-server --watch db.json --port 4000
 🌐 Deployment
-Frontend on Netlify: https://your-site-name.netlify.app
+Frontend on Netlify: https://react-cab-app.netlify.app/
 
 Backend Options: Deploy on Render, Cyclic, or run locally
 
