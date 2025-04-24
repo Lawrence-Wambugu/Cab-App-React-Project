@@ -6,7 +6,7 @@ import MapView from "./MapView";
 function CabList() {
   const [cabs, setCabs] = useState([]);
   const [customerName, setCustomerName] = useState('Lawrence'); 
-  const navigate = useNavigate(); // Hook to navigate to a different route
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     fetch("http://localhost:4000/cabs")
