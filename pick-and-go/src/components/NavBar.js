@@ -1,4 +1,3 @@
-// src/components/NavBar.js
 import { Link } from "react-router-dom";
 
 function NavBar() {
