@@ -34,7 +34,7 @@ function CabList() {
       {}
       <MapView cabs={cabs} />
 
-      {/* Display all cabs, regardless of status */}
+      {}
       <div className="grid md:grid-cols-3 gap-4">
         {cabs.map(cab => (
           <div key={cab.id} className="border p-4 rounded shadow">
