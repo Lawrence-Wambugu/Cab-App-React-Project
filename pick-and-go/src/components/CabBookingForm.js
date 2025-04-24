@@ -69,7 +69,7 @@ function CabBookingForm() {
 
   return (
     <div className="max-w-lg mx-auto p-6 bg-white rounded shadow mt-8">
-      <h2 className="text-2xl font-bold mb-4">Book a Cab</h2>
+      <h1 className="text-2xl font-bold mb-4">Book a Cab</h1>
     //Creation of form
       <form onSubmit={handleSubmit}>
         <label className="block mb-2 font-semibold">Customer Name</label>
