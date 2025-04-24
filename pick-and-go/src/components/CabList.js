@@ -15,7 +15,7 @@ function CabList() {
       .catch(error => console.error("Error fetching cabs:", error));
   }, []);
 
-  // Function to handle cab booking redirection
+  
   const handleBookCab = (cab) => {
     // Update the cab status to booked when the user books it
     const updatedCabs = cabs.map((c) =>
