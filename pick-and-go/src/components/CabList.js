@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import CabStatus from "./CabStatus";
-import MapView from "./MapView";  
+import MapView from "./MapView";  // Import MapView
 
 function CabList() {
   const [cabs, setCabs] = useState([]);
-  const [customerName, setCustomerName] = useState('Lawrence'); 
+  const [customerName, setCustomerName] = useState('Lawrence'); // Static customer name, you can change this as per your logic
   const navigate = useNavigate(); // Hook to navigate to a different route
 
   useEffect(() => {
