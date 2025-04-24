@@ -38,7 +38,7 @@ function CabBookingForm() {
       status: "confirmed",
     };
 
-    fetch("http://localhost:4000/bookings", {
+    fetch("https://pick-and-go-api.onrender.com/cabs", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -48,7 +48,7 @@ function CabBookingForm() {
       .then((res) => res.json())
       .then(() => {
         // Step 2: Update the cab status to "Intransit"
-        return fetch(`http://localhost:4000/cabs/${cabId}`, {
+        return fetch(`https://pick-and-go-api.onrender.com/cabs/${cabId}`, {
           method: "PATCH",
           headers: {
             "Content-Type": "application/json",
